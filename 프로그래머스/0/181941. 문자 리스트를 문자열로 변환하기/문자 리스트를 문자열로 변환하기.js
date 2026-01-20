@@ -5,3 +5,17 @@ function solution(arr) {
     }
     return answer;
 }
+
+function solution(arr) {
+    let result = '';
+
+    for (const ch of arr) {
+        result += ch;
+    }
+
+    return result;
+}
+
+function solution(arr) {
+    return arr.join('');
+}
